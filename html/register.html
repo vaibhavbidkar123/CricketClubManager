@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration</h1>
+    <form method="POST" action="../php/register.php">
+      <div class="form-group">
+        <label for="coach-name">Coach Name</label>
+        <input type="text" id="coachname" name="coachname" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phonenumber" required>
+      </div>
+      <input type="submit" value="Register">
+    </form>
+    <div class="link-container">
+        <p class="link-text">Already a User?</p>
+        <a href="login.html" class="link">Login</a>
+      </div>
+  </div>
+</body>
+</html>

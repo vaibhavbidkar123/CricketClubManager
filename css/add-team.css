@@ -1,0 +1,138 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #1a1a33;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-logo a {
+    display: inline-block;
+  }
+  
+  .navbar-logo img {
+    height: 40px; 
+    vertical-align: middle;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links li {
+    margin-right: 10px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .navbar-links li a:hover {
+    background-color: #333366;
+    border-radius: 3px;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333366;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333366;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1a1a33;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333366;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a1a33;
+}
+input[type="file"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #1a1a33;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #333366;
+}
