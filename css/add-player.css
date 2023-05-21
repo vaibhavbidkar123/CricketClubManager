@@ -24,7 +24,7 @@ form {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: none; /* Remove table border */
+    border: none;
 }
 
 label {

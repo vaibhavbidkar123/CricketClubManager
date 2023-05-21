@@ -15,7 +15,7 @@ if (isset($_GET['player_id'])) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Delete the player from the database
+
     $sql = "DELETE FROM PLAYER_TABLE WHERE PLAYER_ID = '$playerID'";
 
     if ($conn->query($sql) === TRUE) {

@@ -37,7 +37,7 @@ if (isset($_GET['team_id'])) {
             $teamID = $row['TEAM_ID'];
 
             echo "<div class='card'>";
-            echo "<a href='../php/player-stats.php?player_id={$playerID}'>"; // Add hyperlink around the player image
+            echo "<a href='../php/player-stats.php?player_id={$playerID}'>"; 
             echo "<img class='img-player' src='../player-images/$playerImage' alt='Player Image'>";
             echo "</a>";
             echo "<h3>Jersey Number: $jerseyNumber</h3>";

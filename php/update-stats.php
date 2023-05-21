@@ -24,7 +24,7 @@ if (isset($_GET['player_id'])) {
         $runsGiven = $_POST['runs_given'];
         $wicketsTaken = $_POST['wickets_taken'];
 
-        // Update the player stats in the database
+
         $sql = "UPDATE PLAYER_TABLE SET
                 TOTAL_MATCHES = '$totalMatchesPlayed',
                 TOTAL_RUNS = '$totalRuns',
