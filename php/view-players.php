@@ -47,7 +47,7 @@ if (isset($_GET['team_id'])) {
             echo "</div>";
         }
     } else {
-        echo "There are no players in this team.";
+        echo "<h2>There are no players in this team.<h2/>";
     }
 
     echo "</div>";

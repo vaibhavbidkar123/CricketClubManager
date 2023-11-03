@@ -178,7 +178,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
  
     if ($stmt->execute()) {
 
-        echo "Player added successfully!";
         header('Location:../html/home.html');
     } else {
 

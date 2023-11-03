@@ -57,7 +57,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #333366;
+  background-color: #000000;
 }
 
 .link-container {

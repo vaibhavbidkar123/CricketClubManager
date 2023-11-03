@@ -1,5 +1,9 @@
 <?php
-
+echo " <style>
+body {
+    background-color: #333366;
+}
+</style>";
 session_start();
 $servername = "localhost"; 
 $username = "root"; 
@@ -33,7 +37,7 @@ $sql = "INSERT INTO TEAM_TABLE (TEAM_NAME, COACH_ID, TEAM_LOGO, TEAM_DESCRIPTION
 
 if ($conn->query($sql) === TRUE) {
 
-    echo "Team added successfully!";
+    echo "<dialog open><h3>Team added successfully!<h3/><dialog/>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

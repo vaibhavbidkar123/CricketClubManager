@@ -17,11 +17,12 @@ if ($conn->connect_error) {
 if (isset($_GET["delete"]) && $_GET["delete"] != "") {
   
     $deleteID = $_GET["delete"];
+    
 
   
-    $sql = "DELETE FROM COACH_TABLE WHERE ID = '$deleteID'";
+    $sql = "DELETE FROM COACH_TABLE WHERE COACH_ID = '$deleteID'";
     if ($conn->query($sql) === TRUE) {
-        echo "Row deleted successfully.";
+        
     } else {
         echo "Error deleting row: " . $conn->error;
     }
@@ -66,7 +67,7 @@ $conn->close();
 
       echo '</table>';
   } else {
-      echo 'No records found.';
+      echo '<h1>No records found<h1/>';
   }
   ?>
 </body>

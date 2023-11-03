@@ -1,5 +1,9 @@
 <?php
-
+echo " <style>
+body {
+    background-color: #333366;
+}
+</style>";
 session_start(); 
 $servername = "localhost"; 
 $username = "root"; 
@@ -36,10 +40,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $coachID = $row['COACH_ID'];
  
         $_SESSION['coach_id'] = $coachID;
-        echo "Login successful!";
         header("Location: ../html/home.html");
     } else {
-        echo "Invalid credentials!";
+        echo "<dialog open><h3>Invalid credentials!<h3/><dialog/>";
     }
 }
 
