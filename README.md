@@ -1,5 +1,9 @@
 # Website by Vaibhav Bidkar - Team and Player Management
 
+## Installation :
+install xampp , and clone this project at this destination "C:\xampp\htdocs\cricketclub" .
+NOTE : move the database file "cricketclub_database" to "C:\xampp\mysql\data".
+
 ## Overview:
 I have developed a user-friendly website to assist coaches in managing multiple sports teams. This platform allows coaches to organize and oversee teams and their respective players. The website offers various features such as adding and deleting players, updating player statistics, and managing teams efficiently.
 
